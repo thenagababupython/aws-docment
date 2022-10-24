@@ -15,7 +15,7 @@ format for directory --- sudo mkfs.ext4 /dev/xvdb
 
 	mkdir demo
 	sudo cd demo/
-	ls -ls
+	ls -la
 	sudo touch test.txt
 	sudo vim test.txt   -- welcome  to volumes
 	sudo mount /dev/xvdb demo/
