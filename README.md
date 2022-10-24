@@ -20,7 +20,7 @@ format for directory --- sudo mkfs.ext4 /dev/xvdb
 	sudo vim test.txt   -- welcome  to volumes
 	sudo mount /dev/xvdb demo/
 	lsblk
-	sudo unmount demo
+	sudo umount demo
 	lsblk
 	
 	
